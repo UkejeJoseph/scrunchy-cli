@@ -1,0 +1,2 @@
+"""Component management and installation."""
+
