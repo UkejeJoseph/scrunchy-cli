@@ -1,3 +1,5 @@
+> **Maintained by [Joseph Ukeje](https://github.com/UkejeJoseph)**
+
 # Scrunchy CLI
 
 Universal command-line tool for integrating Scrunchy components into any game project.
