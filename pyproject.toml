@@ -1,0 +1,24 @@
+[project]
+name = "scrunchy-cli"
+version = "0.1.0"
+description = "Scrunchy CLI - Universal command-line tool for integrating Scrunchy components into any game project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "typer[all]>=0.9.0",
+    "httpx>=0.25.0",
+    "rich>=13.7.0",
+    "pydantic>=2.5.0",
+    "pyyaml>=6.0.1",
+    "cryptography>=41.0.0",
+]
+
+[project.scripts]
+scrunchy = "scrunchy.main:app"
+
+[tool.setuptools]
+packages = ["scrunchy"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
